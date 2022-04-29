@@ -1,0 +1,115 @@
+.stopwatch-app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .stopwatch-app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
+
+.stopwatch-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .stopwatch-details {
+    align-items: flex-start;
+    margin-left: 160px;
+  }
+}
+
+.stopwatch-heading {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .stopwatch-heading {
+    font-size: 62px;
+  }
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0px 4px 40px rgba(23, 31, 70, 0.24);
+  width: 340px;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.timer-details {
+  display: flex;
+  align-items: center;
+}
+
+.timer-image {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.timer {
+  color: #333333;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.time {
+  color: #333333;
+  font-size: 32px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .time {
+    font-size: 60px;
+  }
+}
+
+.timer-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.start-button {
+  background-color: #1db05f;
+  margin-right: 24px;
+}
+
+.stop-button{
+    background-color: #ef0d36;
+    margin-right: 24px;
+}
+
+.reset-button{
+    background-color: #eaa800;
+}
